@@ -44,7 +44,7 @@ public class Thing {
 
     @Override
     public String toString() {
-        return "Name: " + this.name + "  Color: " + this.color + "  Shape: " + this.shape;
+        return "Name: " + this.name + "  Color: " + this.color + "  Shape: " + this.shape + "\n";
     }
 
     @Override
