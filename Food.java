@@ -19,4 +19,30 @@ public class Food extends Thing
         this.flavor = flavor;
         this.calories = calories;
     }
+
+    //accessors
+    public String getFlavor()
+    {
+        return this.flavor;
+    }
+
+    public int getCalories()
+    {
+        return this.calories;
+    }
+
+    //end accessors
+
+
+    //mutators
+
+    public void setFlavor(String flavor)
+    {
+        this.flavor = flavor;
+    }
+
+    public void setCalories(int calories)
+    {
+        this.calories = calories;
+    }
 }

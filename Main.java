@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
+        //creates a bunch of things for us to screw with
         Thing[] things = new Thing[]{
             new Thing("Rubik's Cube", "multi-color", "cube"),
             new Thing("Duck", "yellow", "large rubber duck"),
