@@ -16,6 +16,7 @@ public class Main {
             new Thing("MONKEY FUEL", "yellow", "banana-shaped"),
             new Thing("Teemo", "Green, Brown", "Lil-Hooman shaped"),
             new Thing("Hydroflask","peach", "Cylinder"),
+            new Food("Ham and Cheese", "Tan", "Flattened rectangular prism", "cheesy and hammy", 200),
         };
 
         for (int i = 0; i< things.length; i++) 

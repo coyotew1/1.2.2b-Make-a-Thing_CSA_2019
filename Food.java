@@ -45,4 +45,11 @@ public class Food extends Thing
     {
         this.calories = calories;
     }
+
+
+    @Override
+    public String toString() 
+    {
+        return super.toString() + "\nFlavor: " + this.flavor + "\n" + this.calories;
+    }
 }
