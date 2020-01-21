@@ -15,6 +15,12 @@ public class Thing {
         this.shape = shape;
     }
 
+    public Thing(String name, String color)
+    {
+        this.name;
+        this.color;
+    }
+
     // Method(s)
     // Getters (Accessors)
     public String getName(){
